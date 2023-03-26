@@ -59,3 +59,10 @@ section{
     height: 25%;
     padding-bottom: 30%;
 }
+
+#boton{
+    display: none;
+}
+#oculto:hover>#boton{
+display: block;
+}
