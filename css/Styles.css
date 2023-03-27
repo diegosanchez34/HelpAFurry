@@ -33,6 +33,7 @@ h3{
 p{
     font-size: large;
     text-align: justify;
+    margin:0%;
 }
 
 a{
@@ -46,26 +47,33 @@ a:hover {
     cursor: pointer;
   }
 
-#celeste {
+#amarillo {
     background-color:gold;
     color:white;
+    height: 25%;
+
 }
 
 #naranja{
     background-color:orange;
     color:white;
+    height: 25%;
+
 }
 
 #rojo {
     background-color: red;
     color:white;
+    height: 25%;
+   
 }
 
-#amarillo {
+#celeste {
     background-color:darkturquoise;
     color:white;
+    height: 25%;
+    
 }
-
 img{
     float: left;
     padding: 0%;
@@ -76,6 +84,7 @@ img{
 section{
     height: 25%;
     padding-bottom: 0%;
+    padding-top: 0%;
     border: 0ch;
     display: flex;
 }
