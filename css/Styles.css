@@ -86,6 +86,16 @@
     font-size:large;
 }
 
+.formulario{
+    padding: 5%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.formulario label{
+    color: black;
+}
+
 h2{
     font-size:x-large;
 }
@@ -96,3 +106,4 @@ h2{
 #oculto:hover>#boton{
     display: block;
 }
+
