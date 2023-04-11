@@ -1,5 +1,4 @@
-body {
-    font-family: sans-serif;
+.cuerpo{
     background-color: #35363a;
     margin-top: 0%;
     margin-left: 0%;
@@ -7,18 +6,31 @@ body {
     margin-bottom: 0%;
 }
 
-nav {
+.menu {
     width:20%;
-    position:absolute;
-    display:block; 
-    padding:2%; 
+    position:absolute; 
+    padding: 3%;
     font-size:larger;
 }
 
-main{
+.menu a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2%;
+}
+
+.menu a:hover {
+    color:gray;
+    cursor: pointer;
+}
+
+
+.contenido{
     margin:0%;
-    padding-left: 24%;
-    width: 70%;
+    padding-left: 20%;
+    width: 90%;
     display:block;  
 }
 
@@ -29,27 +41,45 @@ main{
     padding:4%;
 }
 
-footer{
+.articulo p{
+    font-size: large;
+}
+
+.articulo li{
+    font-size: large;
+}
+
+.articulo a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+.articulo a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.pie{
+    position: absolute;
+    width: 100%;
+    height: 20%;;
     text-align: center;
     background-color:#202124;
     color: white;
-    height: 25%;
-    padding:3%;
+    padding: 2%;
 }
 
-p{
+.pie div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie p{
     font-size:large;
-}
-
-a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;  
-}
-
-a:hover {
-    color:gainsboro;
-    cursor: pointer;
 }
 
 h2{
