@@ -14,40 +14,43 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 
-<body >
-    <nav>
+<body class="cuerpo">
+    <nav class="menu">
         <ul>
-        <a href="../index.html" > Inicio</a><br><br>
-        <a href="nosotros.html"> Nosotros</a><br><br>
-        <a href="perros.html" > Perros</a><br><br>
-        <a href="gatos.html" > Gatos</a><br><br>
+        <a href="../index.html" > Inicio</a>
+        <a href="nosotros.html"> Nosotros</a>
+        <a href="perros.html" > Perros</a>
+        <a href="gatos.html" > Gatos</a>
         </ul>
     </nav>
 
-    <main>
+    <main class="contenido">
         <div class="articulo" style="background-color: gold">
-            <h1>Contáctanos</h1>
+            <h2>Contáctanos</h2>
         </div>
 
-        <h1 style="color: white;">Si tienes una duda, contáctanos</h1>
+        <h5 style="color: white;">Si tienes una duda, contáctanos</h5>
         <form action="">
-            <a>Nombre <br><input type="text" placeholder="Ginger"></a>
-            <br><br>
-            <a>Password <br><input type="password" placeholder="**********"></a>
-            <br><br>
-            <p style="color: white;"> Seleccione su Género: <br><br>
-            <input type="radio">Femenino
-            <input type="radio">Masculino
-            <br><br><br>
-            Seleccione su Ciudad: </p>
-            <select name="ciudad">
-                <option value="Arica">Arica</option>
-                <option value="Santiago">Santiago</option>
-                <option value="Concepción">Concepción</option>
-                <option value="Puerto Montt">Puerto Montt</option>
-                <option value="Punta Arenas">Punta Arenas</option>
+            <div class="mb-3">
+                <label for="primerNombre" class="form-label" >Primer Nombre</label>
+                <input type="text" class="form-control" id="primerNombre" Style="width: 50%;" placeholder="Introduzca su primer nombre">
+                <label for="segundoNombre" class="form-label">Segundo Nombre Nombre</label>
+                <input type="text" class="form-control" id="segundoNombre" Style="width: 50%;" placeholder="Introduzca su segundo nombre">
+                <label for="primerApellido" class="form-label">Primer Nombre</label>
+                <input type="text" class="form-control" id="primerApellido" Style="width: 50%;" placeholder="Introduzca su primer apellido">
+                <label for="segundoApellido" class="form-label">Primer Nombre</label>
+                <input type="text" class="form-control" id="segundoApellido" Style="width: 50%;" placeholder="Introduzca su primer apellido">
                 
-            </select>
+                <label for="correo" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" Style="width: 50%;" placeholder="nombre@ejemplo.com">
+                <br>
+                <label for="identificacion" class="form-label">Seleccione documento de identificacion</label>
+                <select name="id">
+                    <option value="Pasaporte">Pasaporte</option>
+                    <option value="CI">Carnet de Identidad</option>
+                </select>
+            </div>
+            
             <br>
             <p style="color: white;">Cuéntenos</p>
             <textarea name="Cuéntenos" id="" cols="50" rows="10"></textarea>
@@ -61,7 +64,7 @@
         </form>
     </main>
 
-    <footer>
+    <footer class="pie">
         <p>ONG Help a Furry © 2023</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
