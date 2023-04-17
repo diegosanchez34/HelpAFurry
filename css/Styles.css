@@ -31,7 +31,8 @@
     margin:0%;
     padding-left: 20%;
     width: 90%;
-    display:block;  
+    display:block; 
+    color: darkturquoise; 
 }
 
 .contenido label{

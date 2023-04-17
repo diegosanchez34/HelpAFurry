@@ -22,15 +22,26 @@
         </ul>
     </nav>
     <main class="contenido">
-    <form method="get" name="crearUsuario">
-        <label for="nombre">Nombre</label>
-
-        <input name="nombre" placeholder="nombre maximo 10 caracteres" type="text" required maxlength="10" size="10">
-
-        <label for="clave">Clave</label>
-        <input name="clave" placeholder="clave" type="text" required maxlength="9" size="9">
-        <button type="submit" >Enviar</button>
-    </form> 
+        <div class="articulo" style="background-color: darkturquoise">
+            <form method="get" name="login">
+                <div class="form-group">
+                    <div class="textoformulario">
+                        <label for="nombre">Usuario: </label>
+                        <input id="nombre" name="nombre" class="form-control">
+                    </div>
+                    <br>
+                    <div class="textoformulario">
+                        <label for="clave">Clave: </label>
+                        <input id="clave" name="clave" class="form-control">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+                <div class="crear-link">
+                    <a href="html\crearusuario.html">O crea una cuenta</a>
+                </div>
+            </form>
+        </div>
     </main>
 </body>
 </html>
