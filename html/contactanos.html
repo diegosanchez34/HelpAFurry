@@ -26,20 +26,20 @@
 
     <main class="contenido">
         <div class="articulo" style="background-color: gold">
-            <h2>Contáctanos</h2>
+            <h2 style="align-self: center;">Contáctanos</h2>
         </div>
 
-        <h5 style="color: white;">Si tienes una duda, contáctanos</h5>
+        <h5 style="color: white;">Si tienes una duda, contáctanos</h5> <br><br>
         <form action="">
             <div class="mb-3">
-                <label for="primerNombre" class="form-label" >Primer Nombre</label>
-                <input type="text" class="form-control" id="primerNombre" Style="width: 50%;" placeholder="Introduzca su primer nombre">
+                <label for="primerNombre" class="form-label nombres" >Primer Nombre</label>
+                <input type="text" class="form-control" id="primerNombre" Style="width: 50%;" placeholder="Introduzca su primer nombre"> <br>
                 <label for="segundoNombre" class="form-label">Segundo Nombre Nombre</label>
-                <input type="text" class="form-control" id="segundoNombre" Style="width: 50%;" placeholder="Introduzca su segundo nombre">
+                <input type="text" class="form-control" id="segundoNombre" Style="width: 50%;" placeholder="Introduzca su segundo nombre"><br>
                 <label for="primerApellido" class="form-label">Primer Nombre</label>
-                <input type="text" class="form-control" id="primerApellido" Style="width: 50%;" placeholder="Introduzca su primer apellido">
+                <input type="text" class="form-control" id="primerApellido" Style="width: 50%;" placeholder="Introduzca su primer apellido"><br>
                 <label for="segundoApellido" class="form-label">Primer Nombre</label>
-                <input type="text" class="form-control" id="segundoApellido" Style="width: 50%;" placeholder="Introduzca su primer apellido">
+                <input type="text" class="form-control" id="segundoApellido" Style="width: 50%;" placeholder="Introduzca su primer apellido"><br>
                 
                 <label for="correo" class="form-label">Correo Electrónico</label>
                 <input type="email" class="form-control" id="correo" Style="width: 50%;" placeholder="nombre@ejemplo.com">
@@ -49,11 +49,17 @@
                     <option value="Pasaporte">Pasaporte</option>
                     <option value="CI">Carnet de Identidad</option>
                 </select>
+                <br><br>
+                <label for="numeroTelefono" class="form-label" >Número de Teléfono (opcional)</label>
+                <input type="text" class="form-control" id="numeroTelefono" Style="width: 40%;" placeholder="+56 9 9999 9999"><br>
+                <label for="ciudadResidencia" class="form-label" >Ciudad de Residencia</label>
+                <input type="text" class="form-control" id="ciudadResidencia" Style="width: 50%;" placeholder="Santiago" >
+                <br>
+                <p style="color: white;">Coméntenos porqué quiere pertenecer a la ONG:</p>
+                <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
+            <br>
             </div>
             
-            <br>
-            <p style="color: white;">Cuéntenos</p>
-            <textarea name="Cuéntenos" id="" cols="50" rows="10"></textarea>
             <br>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpiar">
