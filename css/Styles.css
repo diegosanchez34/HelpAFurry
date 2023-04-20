@@ -79,6 +79,11 @@
     text-align: center;
 }
 
+.articulo h4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .pie{
     position: relative;
 	bottom: 0;
