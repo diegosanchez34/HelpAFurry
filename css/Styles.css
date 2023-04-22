@@ -192,3 +192,87 @@ h2{
 .mb-3 li{
     display:block
 }
+
+#primerNombre, #segundoNombre, #primerApellido, #segundoApellido, #correo, #numeroTelefono, #ciudadResidencia{
+    width: 50%;
+}
+
+.formulario .mb-3 textarea{
+    width: 70%;
+    height: 300px;
+}
+@media screen and (max-width: 980px) {
+    .menu {
+      width: 100%;
+      padding: 2%;
+      float: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      height: fit-content;
+    }
+  
+    .menu a {
+      margin-bottom: 0;
+    }
+  
+    .contenido {
+      padding-left: 5%;
+      width: 95%;
+    }
+  
+    .articulo {
+      padding: 2%;
+    }
+  
+    .banner {
+      flex-direction: column;
+    }
+  
+    .texto {
+      width: 100%;
+      padding: 2%;
+    }
+  
+    .imagen {
+      width: 100%;
+    }
+  
+    .pie {
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: fit-content;
+    }
+  
+    .pie div {
+      height: auto;
+      padding: 2%;
+    }
+  
+    .formulario {
+      padding: 2%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .form-control{
+        width: 50%;
+    }
+
+    #primerNombre, #segundoNombre, #primerApellido, #segundoApellido, #correo, #numeroTelefono, #ciudadResidencia{
+        width: 90%;
+    }
+    #correoElectronico{
+        width: 60%;
+    }
+    
+    .formulario .mb-3 textarea{
+        width: 70%;
+        height: 300px;
+    }
+    
+    .formulario .mb-3 textarea{
+        width: 90%;
+        height: 300px;
+    }
+  }

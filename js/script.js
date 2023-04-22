@@ -5,9 +5,9 @@ function validarusuario(){
     var camponombre2=document.getElementById("segundoApellido").value;
     var campocorreo=document.getElementById('correo').value;
     if(camponombre1==""||camponombre2==""||primerApellido==""||segundoApellido==""||campocorreo==""){
-        alert('Ta vacio');
+        alert('Por favor rellene los campos');
     }else{
-        alert("Ta ien");
+        alert("Está bien");
     }
   }
   function largo(){
