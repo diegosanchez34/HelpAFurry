@@ -281,4 +281,7 @@ h2{
         width: 90%;
         height: 300px;
     }
+    .fila{
+        flex-direction: column;
+    }
   }
