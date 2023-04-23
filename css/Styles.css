@@ -193,7 +193,7 @@ h2{
     display:block
 }
 
-#primerNombre, #segundoNombre, #primerApellido, #segundoApellido, #correo, #numeroTelefono, #ciudadResidencia{
+#primerNombre, #segundoNombre, #primerApellido, #segundoApellido, #correo, #numeroTelefono, #rut, #ciudadResidencia{
     width: 50%;
 }
 
@@ -218,12 +218,18 @@ h2{
     }
   
     .contenido {
-      padding-left: 5%;
+      padding-left: 0;
       width: 95%;
+    }
+    .usuario{
+        width:min-content;
+        display: inline-flex;
+        float: center;
     }
   
     .articulo {
       padding: 2%;
+      width: 80%;
     }
   
     .banner {
@@ -259,11 +265,11 @@ h2{
         width: 50%;
     }
 
-    #primerNombre, #segundoNombre, #primerApellido, #segundoApellido, #correo, #numeroTelefono, #ciudadResidencia{
-        width: 90%;
+    #primerNombre, #segundoNombre, #primerApellido, #segundoApellido, #correo, #numeroTelefono, #rut, #ciudadResidencia{
+        width: 100%;
     }
     #correoElectronico{
-        width: 60%;
+        width: 80%;
     }
     
     .formulario .mb-3 textarea{
