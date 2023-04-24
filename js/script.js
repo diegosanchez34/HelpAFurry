@@ -8,6 +8,8 @@ function validarusuario(){
         alert('Por favor rellene los campos');
     }
     if (largo()==false){
+    }else if(validarnumeros()==false){
+        alert('No puede incluir letras en el celular')
     }
     else{
         alert("Su formulario ha sido enviado");
@@ -25,6 +27,15 @@ function largo(){
         return false;
     }
     else return true;
+}
+function validarnumeros(){
+    var aceptados=/^[0-9]+$/;
+    var campocel=document.getElementById("numerocel").value;
+    if(campocel.match(aceptados)){
+        return true
+    }else{
+        return false
+    }
 }
 
 function limpiar(){
@@ -66,12 +77,3 @@ function validarusuario(){
         campopelado.parentNode.innerHTML = "<p>te pasaste</p>";
     }
 }*/
-function validarnumeros(){
-    var aceptados=/^[0-9]+$/;
-    var campocel=document.getElementById("numerocel").value;
-    if(campocel.match(aceptados)){
-
-    }else{
-        alert("Ta maloooooo");
-    }
-}
