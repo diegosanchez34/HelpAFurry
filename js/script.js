@@ -18,3 +18,12 @@ function validarusuario(){
         campopelado.parentNode.innerHTML = "<p>te pasaste</p>";
     }
 }
+function validarnumeros(){
+    var aceptados=/^[0-9]+$/;
+    var campocel=document.getElementById("numerocel").value;
+    if(campocel.match(aceptados)){
+
+    }else{
+        alert("Ta maloooooo");
+    }
+}

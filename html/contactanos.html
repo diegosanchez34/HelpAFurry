@@ -39,7 +39,7 @@
                     <input type="text" class="form-control" id="segundoApellido" Style="width: 50%;" placeholder="Introduzca su primer apellido"><br>
                     <label for="correo" class="form-label">Correo Electrónico</label>
                     <input type="email" class="form-control" id="correo" Style="width: 50%;" placeholder="nombre@ejemplo.com"><br>
-                    <label for="numeroTelefono" class="form-label" >Número de Teléfono (opcional)</label>
+                    <label for="numeroTelefono" class="form-label" id="numerocel">Número de Teléfono (opcional)</label>
                     <input type="text" class="form-control" id="numeroTelefono" Style="width: 40%;" placeholder="+56 9 9999 9999"><br>
                     <label for="ciudadResidencia" class="form-label" >Ciudad de Residencia</label>
                     <input type="text" class="form-control" id="ciudadResidencia" Style="width: 50%;" placeholder="Santiago" ><br>
@@ -50,8 +50,6 @@
                     </select>
                     <p style="color: white;">Coméntenos porqué quiere pertenecer a la ONG:</p>
                     <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
-                    <br>
-                    <textarea name="errorlength" id="errorlength"></textarea>
                 </div>
                 <br>
                 <input type="submit" value="Enviar" onclick="validarusuario()">
