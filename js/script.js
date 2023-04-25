@@ -7,11 +7,20 @@ function validarusuario(){
     if(camponombre1==""||camponombre2==""||primerApellido==""||segundoApellido==""||campocorreo==""){
         alert('Por favor rellene los campos');
     }
-    if (largo()==false){
-    }
     else{
-        alert("Su formulario ha sido enviado");
+        if (largo()==false){
+            alert ("No cumple con el largo en el comentario");
+        }
+        else{
+            if(validarnumeros()==false){
+                alert('No puede incluir letras en el celular');
+        }
+        else{
+            alert("Su formulario ha sido enviado");
+        } 
+        }
     }
+    
     
 }
 
@@ -21,11 +30,18 @@ function largo(){
     var campocomentario=$("#comentarios").val().length;
     if(campocomentario<minlargo){
         var campopelado = $("#errorlength");
-        alert("No ha completado por qué quiere pertenecer a la ONG");
         return false;
     }
     else return true;
 }
+function validarnumeros(){
+    var aceptados=/^[0-9]+$/;
+    var campocel=document.getElementById("numeroTelefono").value;
+    if(!aceptados.test(campocel)){
+      return false;
+    }else
+      return true;
+  }
 
 function limpiar(){
     $(document).ready(function() {
