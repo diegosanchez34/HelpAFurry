@@ -51,10 +51,6 @@
     color: darkturquoise; 
 }
 
-.contenido label{
-    color: white;
-}
-
 .contenido img{
     width: 100%;
 }
@@ -175,7 +171,15 @@
 
 .formulario a{
     color: #07A5B0;
-    font-size: large;
+    font-size: medium;
+}
+
+.formulario a:hover{
+    color: #07A5B0;
+}
+
+.formulario p{
+    color: black;
 }
 
 h2{
@@ -266,6 +270,7 @@ h2{
       margin-left: 0;
       margin-right: 0;
     }
+
     .form-control{
         width: 50%;
     }
