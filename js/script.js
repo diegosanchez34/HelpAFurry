@@ -13,12 +13,10 @@ function validarusuario(){
     }
     else{
         alert("Su formulario ha sido enviado");
-    }
-    
+    }    
 }
 
 function largo(){
-
     var minlargo=50;
     var campocomentario=$("#comentarios").val().length;
     if(campocomentario<minlargo){
